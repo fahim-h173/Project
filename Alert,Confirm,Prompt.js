@@ -1,2 +1,2 @@
-const checkAge = prompt ("What's your Age?",18);
-alert (`You are ${checkAge} Years old`);
+const ask = confirm("Are You sur?");
+const userAns = (ask==true) ? window.location = "https://google.com" : alert("thanks for Staying");
